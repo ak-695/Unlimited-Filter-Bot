@@ -68,7 +68,7 @@ async def addconnection(client,message):
                     )
             else:
                 await message.reply_text(
-                    "You're already connected to this chat!",
+                    "You're already connected to this chat😤😓!",
                     quote=True
                 )
         else:
@@ -82,7 +82,8 @@ async def addconnection(client,message):
         return
 
 
-@Client.on_message((filters.private | filters.group) & filters.command(Config.DISCONNECT_COMMAND))
+
+@akbot_Updates.on_message((filters.private | filters.group) & filters.command(Config.DISCONNECT_COMMAND))
 async def deleteconnection(client,message):
     userid = message.from_user.id
     chat_type = message.chat.type
@@ -104,7 +105,8 @@ async def deleteconnection(client,message):
             await message.reply_text("This chat isn't connected to me!\nDo /connect to connect.", quote=True)
 
 
-@Client.on_message(filters.private & filters.command(["connections"]))
+
+@akbot_Updates.on_message(filters.private & filters.command(["connections"]))
 async def connections(client,message):
     userid = message.from_user.id
 
