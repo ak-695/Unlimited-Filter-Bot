@@ -175,7 +175,7 @@ async def addfilter(client, message):
     )
 
 
-@Client.on_message(filters.command('viewfilters'))
+@akbot_Updates.on_message(filters.command('viewfilters'))
 async def get_all(client, message):
     
     chat_type = message.chat.type
@@ -192,7 +192,7 @@ async def get_all(client, message):
                 await message.reply_text("Make sure I'm present in your group!!", quote=True)
                 return
         else:
-            await message.reply_text("I'm not connected to any groups!", quote=True)
+            await message.reply_text("I'm not connected to any groups 🥺!", quote=True)
             return
 
     elif (chat_type == "group") or (chat_type == "supergroup"):
@@ -233,7 +233,8 @@ async def get_all(client, message):
         parse_mode="md"
     )
         
-@Client.on_message(filters.command(Config.DELETE_FILTER_CMD))
+
+@akbot_Updateson_message(filters.command(Config.DELETE_FILTER_CMD))
 async def deletefilter(client, message):
     userid = message.from_user.id
     chat_type = message.chat.type
@@ -278,7 +279,8 @@ async def deletefilter(client, message):
     await delete_filter(message, query, grp_id)
         
 
-@Client.on_message(filters.command(Config.DELETE_ALL_CMD))
+
+@akbot_Updates.on_message(filters.command(Config.DELETE_ALL_CMD))
 async def delallconfirm(client, message):
     userid = message.from_user.id
     chat_type = message.chat.type
