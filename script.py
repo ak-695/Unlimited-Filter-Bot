@@ -43,10 +43,10 @@ See <i>/help</i> for commands and more details.</b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Filter Bot 2 </b>
+    ABOUT_MSG = """⭕️<b>My Name : Akshay </b>
 
-⭕️<b>Creater :</b> 
-@akbot_Updates    
+⭕️<b>Creater :</b> @Akshaymh17
+   
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
