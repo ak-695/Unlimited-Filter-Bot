@@ -51,8 +51,8 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/akbot_Updates"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/akbot_Updates")
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/+CG7AQS6IfUNhYTNl"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/+CG7AQS6IfUNhYTNl")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/akbot_Updates")
+                        "SOURCE CODE", url="https://t.me/+CG7AQS6IfUNhYTNl")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
