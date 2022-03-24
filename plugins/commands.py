@@ -248,8 +248,9 @@ async def help(client, message):
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/akbot_Updates"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/akbot_Updates")
+                    InlineKeyboardButton("Movie Channel", url="https://t.me/+1qdEeHOTLdQ1M2Vl"),
+                    InlineKeyboardButton("Movie Group", url="https://t.me/+CG7AQS6IfUNhYTNl")
+                    InlineKeyboardButton("Movie request bot", @PR_movie_request_bot")
                 ]
             ]
         ),
