@@ -2,7 +2,7 @@ class Script(object):
 
     START_MSG = """<b>Hy {},
 
-I'm an personal bot ..
+I'm an group filter bot ..
 And it will be turned off anytime, so use it at your own risk. :)
 
 See <i>/help</i> for commands and more details.</b>
@@ -10,35 +10,31 @@ See <i>/help</i> for commands and more details.</b>
 
 
     ☞HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+Ohh❗You Need Help❗
+ Add me as Admin in your Group & Start Filtering!
+
+Basic Commands
+➠ /start - Check if I'm alive!
+➠ /help - Here You're!
+➠ /about - To Know About Me!
 
 
-<b>Filter Commands;</b>
+Filter Commands
+➠ /add name reply - Add filter for name.
+➠ /del name - Delete filter.
+➠ /delall - Delete entire filter database (Group Admin Only)
+➠ /viewfilters - List of all filters in chat.
 
-<code>/add name reply</code>  -  Add filter for name
+Connection Commands
+➠ /connect groupid - Connect your group to my PM. You can also simply use;
+➠ /connect in groups.
+➠ /connections - Manage your connections.
 
-<code>/del name</code>  -  Delete filter
+Extras
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
-
-
-<b>Extras;</b>
-
-/status  -  Shows current status of your bot (Auth User Only)
-
-/id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
+➠ /status - Show Current Status of your Bot (Auth User Only)
+➠ /id - Show ID information.
+➠ /info userid - Show User Information. Use '/info' as reply to some message for their details!
 
 ☞ Owner by Akshay Chand........!
 
