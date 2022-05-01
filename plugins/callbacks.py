@@ -48,11 +48,11 @@ async def cb_handler(client, query):
             [
                 [
                 
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🔰ᴀʙᴏᴜᴛ ᴍᴇ🔰", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/+CG7AQS6IfUNhYTNl"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/+CG7AQS6IfUNhYTNl")
+                    InlineKeyboardButton("🔰ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ🔰", url="https://t.me/+6-EyTsbPhX5iYzJl"),
+                    InlineKeyboardButton("🔰ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🔰", url="https://t.me/+CG7AQS6IfUNhYTNl")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/+CG7AQS6IfUNhYTNl")
+                        "🔰ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🔰", url="https://t.me/+CG7AQS6IfUNhYTNl")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
